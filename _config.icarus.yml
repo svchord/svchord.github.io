@@ -165,7 +165,7 @@ comment:
     type: gitalk
     client_id: f7324a4d68c47b3577c0
     client_secret: c4bbc1cda3a0df4d921613cdf0aa65d342da0e17
-    repo: Blog-Comment
+    repo: zqhjl.github.io
     owner: zqhjl
     admin:
         - zqhjl
