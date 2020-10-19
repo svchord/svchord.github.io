@@ -68,4 +68,4 @@ jobs:
       - name: 部署博客
         run: |
           hexo clean
-          hexo g -d
+          hexo d -g
