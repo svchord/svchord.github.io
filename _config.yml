@@ -63,5 +63,5 @@ ignore: null
 theme: icarus
 deploy:
   type: git
-  repo: 'https://github.com/zqhjl/zqhjl.github.io.git'
+  repo: 'git@github.com:zqhjl/zqhjl.github.io.git'
   branch: master
