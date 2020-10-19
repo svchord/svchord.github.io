@@ -3,7 +3,8 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: 
+    text: Mr. Chor's Blog
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -12,10 +13,10 @@ head:
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: 
+        name: Mr. Chor's Blog
         # The displayed name of the web application
         # when there is not enough space to display full name
-        short_name: 
+        short_name: Blog
         # The start URL of the web application
         start_url: 
         # The default theme color for the application
@@ -39,10 +40,10 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
-        type: blog
+        type:
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
         url: 
@@ -75,7 +76,7 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 
+        title:
         # Page description (optional)
         # You should leave this blank for most of the time
         description: 
@@ -291,6 +292,7 @@ widgets:
         links:
             Hexo: 'https://hexo.io'
             Bulma: 'https://bulma.io'
+            fudreamin: 'http://reainyday.top/'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -314,7 +316,7 @@ widgets:
     # Google FeedBurner email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: subscribe_email
         # Hint text under the email input
         description: 
