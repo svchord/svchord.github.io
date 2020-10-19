@@ -48,20 +48,6 @@ jobs:
           npm i -g hexo-cli
           npm i
 
-      # bulma-stylus@0.8.0 --save
-          # npm install disqusjs --save
-          # npm install hexo --save
-          # npm install hexo-component-inferno@0.10.3 --save
-          # npm install hexo-deployer-git --save
-          # npm install hexo-generator-archive --save
-          # npm install hexo-generator-category --save
-          # npm install hexo-generator-index --save
-          # npm install hexo-generator-tag --save
-          # npm install hexo-renderer-ejs --save
-          # npm install hexo-renderer-inferno --save
-          # npm install hexo-renderer-marked --save
-          # npm install hexo-server --save
-          # npm install hexo-theme-icarus --save
       - name: 安装插件
         run: |
           npm install
