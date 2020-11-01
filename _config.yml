@@ -1,11 +1,11 @@
-title: Mr. Chor's Blog
-subtitle: ''
+title: The Seventh Chord
+subtitle: "Mr. Han's Blog"
 description: ''
 keywords: null
-author: Mr. Chor
+author: Mr. Han
 language: en
 timezone: ''
-url: 'http://example.com'
+url: 'http://zqhjl.github.io'
 root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
